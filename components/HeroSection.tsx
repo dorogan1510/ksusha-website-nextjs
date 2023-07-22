@@ -7,7 +7,6 @@ import skype from '../public/img/skype.svg'
 import telegram from '../public/img/telegram.svg'
 import vk from '../public/img/vk.svg'
 import whatsapp from '../public/img/whatsapp.svg'
-import Link from 'next/link'
 
 const HeroSection = () => {
     useEffect(() => {
@@ -63,7 +62,7 @@ const HeroSection = () => {
                 className='btn'
                 type='button'
                 target='_blank'
-                href='https://wa.me/79523715490?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%AF%20%D1%85%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D0%B8%D0%BD%D1%82%D0%B5%D0%BD%D1%81%D0%B8%D0%B2%20%D0%BF%D0%BE%20%D1%82%D1%83%D1%80%D0%B5%D1%86%D0%BA%D0%BE%D0%BC%D1%83%20%D1%8F%D0%B7%D1%8B%D0%BA%D1%83%20%D1%81%20%D1%82%D0%B0%D1%80%D0%B8%D1%84%D0%BE%D0%BC%20%22%D0%A1%D0%B0%D0%BC%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%22.'
+                href='https://wa.me/79523715490?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D0%B8%D0%BD%D1%82%D0%B5%D0%BD%D1%81%D0%B8%D0%B2%20%D0%BF%D0%BE%20%D1%82%D1%83%D1%80%D0%B5%D1%86%D0%BA%D0%BE%D0%BC%D1%83%20%D1%8F%D0%B7%D1%8B%D0%BA%D1%83'
                 // onClick={e => {
                 //     e.preventDefault()
                 //     window.location.href =
