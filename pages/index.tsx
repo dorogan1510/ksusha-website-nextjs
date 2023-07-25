@@ -1,12 +1,10 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Chat from '../components/Chat'
-import Chat2 from '../components/Chat2'
-import HeroSection from '../components/HeroSection'
-import MyServices from '../components/MyServices'
-import Reviews from '../components/Reviews'
-import BenefitsFromIntensiv from '../components/TurkishIntensiv/BenefitsFromIntensiv'
-import TurkishIntensivPrices from '../components/TurkishIntensiv/TurkishIntensivPrices'
+import Chat from './components/Chat'
+import Chat2 from './components/Chat2'
+import HeroSection from './components/HeroSection'
+import MyServices from './components/MyServices'
+import Reviews from './components/Reviews'
 import Header from '../globalComponents/Header'
 
 const Home: NextPage = () => {
@@ -31,8 +29,7 @@ const Home: NextPage = () => {
                 <Header />
                 <div className='container'>
                     <HeroSection />
-                    <BenefitsFromIntensiv />
-                    <TurkishIntensivPrices />
+
                     <Chat />
                     <MyServices />
                     <Chat2 />

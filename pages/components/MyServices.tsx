@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
 
-import telegram1 from '../public/img/telegram1.svg'
+import telegram1 from '../../public/img/telegram1.svg'
 
 const MyServices = () => {
     const [scroll, setScroll] = useState(0)
