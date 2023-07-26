@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 
 import Image from 'next/image'
+import Link from 'next/link'
 import heroImage from '../../public/img/bg1.jpg'
 import instagram from '../../public/img/instagram.svg'
 import skype from '../../public/img/skype.svg'
@@ -58,9 +59,9 @@ const HeroSection = () => {
                 <Image className='img' src={heroImage} alt={''} />
             </div>
 
-            <a className='btn' type='button' href='/turkish'>
+            <Link className='btn' type='button' href='/turkish'>
                 Об интенсиве по турецкому
-            </a>
+            </Link>
             <button className='btn' type='button' id='btn'>
                 Свяжитесь со мной!
             </button>

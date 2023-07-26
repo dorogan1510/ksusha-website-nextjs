@@ -1,4 +1,4 @@
-const BenefitsFromIntensiv = () => {
+const TurkishBenefitsFromIntensiv = () => {
     return (
         <div className='bonus' id='id5'>
             <h3 className='bonus__adv'>
@@ -62,4 +62,4 @@ const BenefitsFromIntensiv = () => {
     )
 }
 
-export default BenefitsFromIntensiv
+export default TurkishBenefitsFromIntensiv
