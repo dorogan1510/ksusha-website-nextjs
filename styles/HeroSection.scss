@@ -61,9 +61,6 @@ main {
     .btn {
         width: 594px;
         height: 70px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
 
         margin-bottom: 20px;
 
@@ -235,6 +232,7 @@ main {
         }
 
         .btn {
+            display: block;
             margin: 0 auto 10px;
         }
 

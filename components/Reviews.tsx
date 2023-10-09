@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
 
-import review1 from '../../public/img/reviews/1.jpg'
-import review2 from '../../public/img/reviews/2.jpg'
-import review3 from '../../public/img/reviews/3.jpg'
-import review4 from '../../public/img/reviews/4.jpg'
-import review5 from '../../public/img/reviews/5.jpg'
-import review6 from '../../public/img/reviews/6.jpg'
+import review1 from '../public/img/reviews/1.jpg'
+import review2 from '../public/img/reviews/2.jpg'
+import review3 from '../public/img/reviews/3.jpg'
+import review4 from '../public/img/reviews/4.jpg'
+import review5 from '../public/img/reviews/5.jpg'
+import review6 from '../public/img/reviews/6.jpg'
 
 const Reviews = () => {
     const [scroll, setScroll] = useState(0)
@@ -40,7 +40,7 @@ const Reviews = () => {
     })
 
     return (
-        <div className='reviews' id='id3'>
+        <div className='reviews' id='id4'>
             <div className='reviews__flex'>
                 <div className='box-left'>
                     <Image src={review1} alt={''} />

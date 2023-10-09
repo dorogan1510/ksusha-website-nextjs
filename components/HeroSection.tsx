@@ -1,13 +1,13 @@
 import { useEffect } from 'react'
 
 import Image from 'next/image'
+import heroImage from '../public/img/bg1.jpg'
+import instagram from '../public/img/instagram.svg'
+import skype from '../public/img/skype.svg'
+import telegram from '../public/img/telegram.svg'
+import vk from '../public/img/vk.svg'
+import whatsapp from '../public/img/whatsapp.svg'
 import Link from 'next/link'
-import heroImage from '../../public/img/bg1.jpg'
-import instagram from '../../public/img/instagram.svg'
-import skype from '../../public/img/skype.svg'
-import telegram from '../../public/img/telegram.svg'
-import vk from '../../public/img/vk.svg'
-import whatsapp from '../../public/img/whatsapp.svg'
 
 const HeroSection = () => {
     useEffect(() => {
@@ -59,9 +59,16 @@ const HeroSection = () => {
                 <Image className='img' src={heroImage} alt={''} />
             </div>
 
-            <Link className='btn' type='button' href='/turkish'>
-                Об интенсиве по турецкому
-            </Link>
+            <button
+                className='btn'
+                type='button'
+                onClick={e => {
+                    e.preventDefault()
+                    window.location.href = '#id5'
+                }}
+            >
+                Записаться на интенсив по турецкому
+            </button>
             <button className='btn' type='button' id='btn'>
                 Свяжитесь со мной!
             </button>

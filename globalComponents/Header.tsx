@@ -12,7 +12,8 @@ const Header = () => {
                 <nav className='nav'>
                     <a href='#id1'>Обо мне</a>
                     <a href='#id2'>Мои услуги</a>
-                    <a href='#id3'>Отзывы</a>
+                    <a href='#id3'>Перевод текста</a>
+                    <a href='#id4'>Отзывы</a>
                 </nav>
                 <div id='menu'>
                     <div id='menu-bar' onClick={menuOnClick}>
@@ -29,7 +30,10 @@ const Header = () => {
                                 <a href='#id2'>Мои услуги</a>
                             </li>
                             <li>
-                                <a href='#id3'>Отзывы</a>
+                                <a href='#id3'>Перевод текста</a>
+                            </li>
+                            <li>
+                                <a href='#id4'>Отзывы</a>
                             </li>
                         </ul>
                     </div>
